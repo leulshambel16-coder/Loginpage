@@ -1,0 +1,105 @@
+body{
+    margin: 0pt;
+    padding: 10%;
+    background-color: rgb(223, 212, 199);
+}
+.main{
+    display: flex;
+    text-align: center;
+    width: auto;
+    background: #000;
+    height: auto;
+    box-shadow: 1px 11px 90px 12px rgb(255, 238, 0);
+
+}
+.main-1{
+    width:50%;
+    background: #ffffff;
+    padding: 25pt;
+    transition: transform 0.7s;
+    transition: box-shadow 3s ;
+    transition: margin-right 2s;
+    
+}
+.main-2{
+    width: 50%;
+    background: #00fc69;
+   padding: 90pt 18pt;
+   color: #ffffff;
+     transition: transform 0.7s;
+      transition: box-shadow 3s ;
+      transition: margin-left 2s;
+
+}
+.signin-box{margin-top: 50px;
+    background-color: #ffffff;
+   text-shadow: 1.5px 1.5px#a78000;
+   
+   }
+.input-box{
+   width: 100%;
+ background-color: rgb(255, 255, 255);
+}
+.input-box-1{
+    width: 80%;
+    margin-bottom: 10px;
+    height: 30px;
+}
+.input-box-2{
+    width: 80%;
+    margin-bottom: 10px;
+    height: 30px;
+}
+.signinbtn{
+    width:82%;
+    height: 45px;
+    background-color: rgb(2, 160, 68);
+    border: none;
+    border-color: rgb(2, 160, 68);
+    transition: transform 1s;
+  
+}
+.button-box{
+   width: 100%;
+ background-color: rgb(255, 255, 255);
+ margin-bottom: 30px;
+}
+.optionbtn1{
+    border-radius: 100%;
+    background-color: rgba(13, 15, 156, 0.849);
+    color: hsl(0, 0%, 100%);
+}
+.optionbtn2{
+    border-radius: 100%;
+     background-color: rgba(243, 60, 5, 0.849);
+    color: hsl(0, 0%, 100%);
+}
+.optionbtn3{
+    border-radius: 100%;
+     background-color: rgba(0, 97, 241, 0.849);
+    color: hsl(0, 0%, 100%);
+}
+.signup{border: none;
+    background: #00ff88;;
+    height: 40px;
+    border-radius: 30%;
+    color: #ffffff;}
+button:hover{
+    transform: scale(1.05);  
+     
+    
+}
+button:active{
+transform: scale(0.9);
+}
+.main-1:hover{
+    transform: scale(1.03);
+    box-shadow: 1px 2px 45px #fc0093;
+    margin-right: 10px;
+}
+.main-2:hover{
+    transform: scale(1.03);
+    box-shadow: 1px 2px 45px #fc009b;
+    margin-left: 10px;
+}
+
